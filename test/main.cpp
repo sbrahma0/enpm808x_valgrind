@@ -1,3 +1,10 @@
+/**
+ *  @file    ../test/main.cpp
+ *  @author  Sayan Brahma
+ *  @copyright Sayan Brahma
+ *  @note Valgrind exercise enpm808x
+ *  @brief Added comments
+ */
 #include <gtest/gtest.h>
 
 int main(int argc, char** argv) {
