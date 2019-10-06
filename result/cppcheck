@@ -9,4 +9,3 @@ Checking test/test.cpp...
 4/4 files checked 100% done
 [test/test.cpp:10]: (style) The function 'TEST' is never used.
 sayan@sayan-G5-5590:~/week6/cpp-boilerplate$ 
-
