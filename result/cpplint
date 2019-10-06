@@ -1,0 +1,9 @@
+sayan@sayan-G5-5590:~/week6/cpp-boilerplate$ cpplint $( find . -name \*.hpp -or -name \*.cpp | grep -vE -e "^./build/" -e "^./vendor/" -e "^./docs/" -e "^./results" -e "^./include")
+Done processing ./app/main.cpp
+./app/AnalogSensor.cpp:23:  Lines should be <= 80 characters long  [whitespace/line_length] [2]
+Done processing ./app/AnalogSensor.cpp
+Done processing ./test/main.cpp
+Done processing ./test/test.cpp
+Total errors found: 1
+sayan@sayan-G5-5590:~/week6/cpp-boilerplate$ 
+

@@ -7,7 +7,8 @@
  */
 #include <gtest/gtest.h>
 
-TEST(dummy, should_pass) {
-  EXPECT_EQ(1, 1);
+AnalogSensor ob1(10);
+TEST(AnalogSensorTest, Read_Test) {
+  EXPECT_EQ(10, ob1.Read());
 }
 
