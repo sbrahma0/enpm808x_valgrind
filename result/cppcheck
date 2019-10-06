@@ -1,12 +1,11 @@
 sayan@sayan-G5-5590:~/week6/cpp-boilerplate$ cppcheck --enable=all --std=c++11 -I include/ --suppress=missingIncludeSystem $( find . -name *.cpp | grep -vE -e "^./build/" -e "^./vendor/" ) 
 Checking app/AnalogSensor.cpp...
-1/4 files checked 39% done
+1/4 files checked 37% done
 Checking app/main.cpp...
-2/4 files checked 70% done
+2/4 files checked 67% done
 Checking test/main.cpp...
-3/4 files checked 86% done
+3/4 files checked 83% done
 Checking test/test.cpp...
 4/4 files checked 100% done
-[test/test.cpp:10]: (style) The function 'TEST' is never used.
 sayan@sayan-G5-5590:~/week6/cpp-boilerplate$ 
 
