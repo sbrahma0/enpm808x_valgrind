@@ -6,8 +6,10 @@
  *  @brief Added comments
  */
 #include <gtest/gtest.h>
+#include"AnalogSensor.hpp"
 
-TEST(dummy, should_pass) {
-  EXPECT_EQ(1, 1);
+AnalogSensor test(10);
+TEST(AnalogSensorTest, Read_Test) {
+  EXPECT_EQ(10, test.Read());
 }
 
